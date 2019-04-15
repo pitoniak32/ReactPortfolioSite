@@ -1,0 +1,14 @@
+:root {
+    --color-1: #3D5A80;
+    --color-2: #7CDEDC;
+    --color-3: #E0FBFC;
+    --color-4: #4e5157;
+    --color-5: #2e2f33;
+    --color-6: rgb(126, 139, 139);
+}
+
+.show-case{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+    grid-gap: 10px;
+}

@@ -1,0 +1,13 @@
+:root{
+    --color-2: #7CDEDC;
+    --color-3: #E0FBFC;
+}
+
+.link {
+    color: var(--color-3); 
+    background: var(--color-2);
+    text-decoration: none;
+    font-size: 4em;
+    padding: 0px 16px 0px 16px;
+    border-radius: 10px;
+}
