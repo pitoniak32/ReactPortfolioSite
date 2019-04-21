@@ -5,12 +5,14 @@
     --color-4: #4e5157;
     --color-5: #2e2f33;
     --color-6: rgb(126, 139, 139);
+    --color-7: #FDFFC9;
 }
 
 .blurb {
+    background: white;
     margin: 10px;
     padding: 10px;
     text-align: left;
-    border: 2px solid var(--color-2);
+    border: 5px solid var(--color-7);
     border-radius: 10px;
 }

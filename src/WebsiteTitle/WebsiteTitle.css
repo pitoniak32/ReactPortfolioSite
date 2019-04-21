@@ -5,6 +5,7 @@
   --color-4: #4e5157;
   --color-5: #2e2f33;
   --color-6: rgb(126, 139, 139);
+  --color-7: rgb(255,255,0);
 }
 
 .ws-title {
@@ -15,5 +16,5 @@
 }
 
 .title {
-    border-bottom: 5px solid #7CDEDC;
+    border-bottom: 5px solid var(--color-2);
 }
