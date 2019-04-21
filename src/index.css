@@ -15,7 +15,9 @@ html {
   margin: 0;
   padding: 0;
   background-color: var(--color-3);
-  /*background-image: radial-gradient(at bottom right, var(--color-7) 5%, var(--color-3));*/
+  background-image: radial-gradient(at bottom right, var(--color-7) , var(--color-3) 75%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
