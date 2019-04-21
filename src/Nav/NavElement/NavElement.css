@@ -8,8 +8,9 @@
     background: var(--color-2);
     text-decoration: none;
     font-size: 4em;
-    padding: 0px 16px 0px 16px;
     border-radius: 10px;
+    height: 90px;
+    width: 90px;
     border: var(--color-7) solid 5px;
 }
 

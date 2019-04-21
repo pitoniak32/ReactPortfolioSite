@@ -6,8 +6,6 @@
     border-radius: 10px;
     background: var(--color-2);
     box-shadow: 1px 2px var(--color-6);
-    width: auto;
-    /*text-align: left;*/
 }
 
 .repo-link {
@@ -27,7 +25,7 @@
     width: 100px;
     height: 100px;
     border:var(--color-7) solid 8px;
-    border-radius: 50px;
+    border-radius: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
