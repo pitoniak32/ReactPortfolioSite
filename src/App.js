@@ -15,10 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <WebsiteTitle title='David Pitoniak' />
-        <Blurb contentText="Hello, My name is David, I'm currently a student at Onondaga Community College working towards my Associates in Computer Science. 
-                            In the fall of 2019 I will be transferring to Rochester Institute of Technology for my Bachelors. 
-                            I've taken courses in Java, C++, MySQL and Assembly Language(MIPS) and enjoy writing code as well as learning new technologies. 
-                            Currently I've been intrigued by React.js development and I created this website to get some practice as well as Have a place to keep my portfolio."/>
+        <Blurb contentText="Hello, my name is David, I'm currently a student at Onondaga Community College working towards my Associates in Computer Science.  In the fall of 2019, I will be transferring to Rochester Institute of Technology for my Bachelors. I've taken courses in Java, C++, MySQL and Assembly Language (MIPS) and enjoy writing code as well as learning new technologies. Currently I've been intrigued by React.js development and I created this website to get some practice as well as have a place to keep my portfolio."/>
         <Nav />
         <ShowCase />
       </div>
