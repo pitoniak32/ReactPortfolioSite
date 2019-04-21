@@ -7,8 +7,8 @@
     --color-6: rgb(126, 139, 139);
 }
 
-.show-case{
+.show-case {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 330px));
     grid-gap: 10px;
 }
