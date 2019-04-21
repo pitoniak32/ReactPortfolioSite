@@ -11,4 +11,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 330px));
     grid-gap: 10px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
 }

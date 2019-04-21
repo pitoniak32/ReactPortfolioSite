@@ -13,9 +13,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   text-align: center;
-  background: var(--color-3);
   padding: 20px;
- /* background-image: radial-gradient(white, var(--color-7), var(--color-3));*/
 }
 
 .ws-title {
