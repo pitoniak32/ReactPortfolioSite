@@ -12,6 +12,11 @@
     height: 90px;
     width: 90px;
     border: var(--color-7) solid 5px;
+    display: inline-block;
+}
+
+.icon {
+    align-self: center;
 }
 
 .link:hover {
