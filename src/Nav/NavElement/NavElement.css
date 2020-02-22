@@ -1,17 +1,12 @@
-:root{
-    --color-2: #7CDEDC;
-    --color-3: #E0FBFC;
-}
-
 .link {
-    color: white; 
-    background: var(--color-2);
+    color: var(--color-6); 
+    background: var(--color-3);
     text-decoration: none;
     font-size: 4em;
     border-radius: 10px;
     height: 90px;
     width: 90px;
-    border: var(--color-7) solid 5px;
+    border: var(--color-1) solid 5px;
     display: inline-block;
 }
 
@@ -20,7 +15,7 @@
 }
 
 .link:hover {
-    box-shadow: 5px 5px var(--color-6);
+    box-shadow: 5px 5px var(--color-1);
 }
 
 /* Skew Forward */

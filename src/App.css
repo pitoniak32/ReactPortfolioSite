@@ -1,11 +1,16 @@
 :root {
-  --color-1: #3D5A80;
-  --color-2: #7CDEDC;
-  --color-3: #E0FBFC;
-  --color-4: #4e5157;
-  --color-5: #2e2f33;
-  --color-6: rgb(126, 139, 139);
-  --color-7: #fbffa5;
+  --color-1: #82B0B3;
+  --color-2: #5C7C7C;
+  --color-3: #AABCC3;
+  --color-4: #D1D5DC; 
+  --color-5: #F3E5E6;
+  --color-6: #ffffff;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Aileron";
+    src: url("fonts/aileron.light-italic.otf");
 }
 
 .App {
@@ -13,7 +18,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .ws-title {
@@ -33,5 +38,16 @@
 
 .blurb {
   grid-column: 1 / 2;
-  color: var(--color-1);
+}
+
+@media only screen and (max-width: 1050px) {
+  .nav {
+    grid-column: 2 / -1;
+    grid-row: 2;
+    align-content: center;
+  }
+
+  .abt-me-text {
+    text-align: left;
+  }
 }

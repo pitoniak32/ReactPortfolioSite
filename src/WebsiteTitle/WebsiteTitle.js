@@ -3,8 +3,9 @@ import './WebsiteTitle.css';
 
 const websiteTitle = (props) => {
     return(
-        <div className='ws-title'>
-            <h1 className='title'>{props.title}</h1>
+        <div className='title-container'>
+            <h1 className='ws-title'>{props.title}</h1>
+            <div className='title-border'></div>
         </div>
     );
 }
