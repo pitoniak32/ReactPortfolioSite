@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <WebsiteTitle title='Cryoexn.Club David Pitoniak' />
+        <WebsiteTitle title='David Pitoniak' />
         <Blurb contentText={blurbContent} />
         <Nav />
       </div>

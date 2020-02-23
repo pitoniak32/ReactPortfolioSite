@@ -41,13 +41,24 @@
 }
 
 @media only screen and (max-width: 1050px) {
+
+  .App {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
   .nav {
     grid-column: 1;
     grid-row: 3;
+    padding-left: 50px;
+    padding-right: 50px;
     align-content: center;
   }
 
   .abt-me-text {
-    text-align: left;
+    text-align: center;
   }
 }
